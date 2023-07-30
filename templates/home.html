@@ -12,6 +12,16 @@
             {% endfor %}
             <br>
             <input type = "submit" value = "invia"/>
+        </form><br>
+        <form action="/quartieriFontanelle">
+            <input type = "submit" value="visualizza i quartieri che hanno fontanelle"/>
+        </form><br>
+        <form action="/comuneScelto" method = "GET">
+            <input type = "text" name = "comune"> inserisci nome comune:<br><br>
+            <input type = "submit" value = "invia"/>
+        </form><br>
+        <form action="/comuniVicini">
+            <input type = "submit" value = "visualizza i comuni a meno di 10 km di distanza da milano"/>
         </form>
     </body>
 </html>
